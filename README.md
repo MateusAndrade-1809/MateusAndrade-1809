@@ -26,3 +26,24 @@
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+
+## 📊 GitHub Stats  
+
+<div align="center">
+  <img 
+    height="200" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=MateusAndrade-1809&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" 
+  />
+  <img 
+    height="200"
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MateusAndrade-1809&layout=compact&langs_count=20&theme=tokyonight&hide_border=true&include_forks=true"
+  />
+</div>
+
+<br clear="all"/>
+
+## 📩 **Get in Touch**  
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mateus-andrade-6b20b63ba/)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3d4886&height=120&section=footer"/>
