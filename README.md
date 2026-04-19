@@ -8,15 +8,6 @@
 
 ---
 
-## 👨‍💻 About Me
-
-- 🎓 Software Engineering student at **PUC Minas**
-- 💻 Focused on **Python**, **JavaScript**, and **Web Development**
-- 🚀 Always improving my skills and building new projects
-- 📚 Currently studying programming, software development, and practical projects
-
----
-
 ## 📩 Get in Touch
 
 <div align="center">
