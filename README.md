@@ -57,10 +57,6 @@
 
 <div align="center">
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=00bfbf&labelColor=0D1117)
-![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)
-![Windows](https://img.shields.io/badge/-Windows-0D1117?style=for-the-badge&logo=windows&logoColor=00bfbf&labelColor=0D1117)
-
 </div>
 
 ---
