@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Hi 👋, I'm Mateus Andrade Motta</h1>
 
 <p align="center">
@@ -13,6 +11,9 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/mateus-andrade-6b20b63ba/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://mateusandrade-1809.github.io/MateusAndrade-1809/" target="_blank">
+    <img src="https://img.shields.io/badge/-Curriculo-00bfbf?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
   
   <br><br>
@@ -71,11 +72,3 @@
 </div>
 
 ---
-
-## 🌱 Studying at the Moment
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/-Python-0D1117?style=for-the-badge&logo=python&logoColor=ffd43b&labelColor=0D1117)
-![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=f7df1e&labelColor=0D1117)
-
