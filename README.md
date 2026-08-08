@@ -9,9 +9,11 @@
 ## 📩 Get in Touch
 
 <div align="center">
+  <a href="https://www.linkedin.com/in/mateus-andrade-6b20b63ba/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://mateusandrade-1809.github.io/MateusAndrade-1809/" target="_blank">
-    <img src="https://img.shields.io/badge/-Portifolio-00bfbf?style=for-the-badge&logo=githubpages&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Portif%C3%B3lio-00bfbf?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
   
   <br><br>
