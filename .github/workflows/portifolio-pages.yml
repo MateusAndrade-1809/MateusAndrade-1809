@@ -1,4 +1,4 @@
-name: Deploy curriculo-MateusAndrade
+name: Deploy portifólio-MateusAndrade
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "github-pages/**"
-      - ".github/workflows/curriculo-pages.yml"
+      - ".github/workflows/portifolio-pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: curriculo-pages
+  group: portifolio-pages
   cancel-in-progress: true
 
 jobs:
