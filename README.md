@@ -11,7 +11,7 @@
 <div align="center">
   </a>
   <a href="https://mateusandrade-1809.github.io/MateusAndrade-1809/" target="_blank">
-    <img src="https://img.shields.io/badge/-Curriculo-00bfbf?style=for-the-badge&logo=githubpages&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Portifolio-00bfbf?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
   
   <br><br>
