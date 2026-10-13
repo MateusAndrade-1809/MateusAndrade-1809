@@ -1,65 +1,34 @@
-name: Deploy portifólio-MateusAndrade
+name: Validate DevQuest portfolio
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - "github-pages/**"
       - "portfolio/**"
       - ".github/workflows/portifolio-pages.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: portifolio-pages
-  cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: portfolio
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: portfolio/package-lock.json
-
-      - name: Install dependencies
-        working-directory: portfolio
-        run: npm ci
-
-      - name: Check code and test
-        working-directory: portfolio
-        run: |
-          npm run lint
-          npm test
-
-      - name: Build portfolio
-        working-directory: portfolio
-        run: npm run build
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
         with:
-          enablement: true
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
+          name: devquest-static-site
           path: portfolio/github-pages
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4

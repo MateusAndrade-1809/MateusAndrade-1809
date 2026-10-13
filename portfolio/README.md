@@ -124,7 +124,7 @@ O ambiente local antigo contém arquivos de scaffold de outra hospedagem; eles n
 
 O endereço público permanece o mesmo do perfil. O código-fonte está em `portfolio/` e a saída publicada em `github-pages/`, na raiz do repositório `MateusAndrade-1809`.
 
-O workflow `.github/workflows/portifolio-pages.yml` instala as dependências, executa testes, gera o build e publica no GitHub Pages. Alterações no código da pasta `portfolio/` disparam uma nova publicação. O workflow da animação de contribuições e o README do perfil são preservados.
+O workflow `.github/workflows/portifolio-pages.yml`, na branch `main`, instala as dependências, executa testes e disponibiliza o build como artefato. A publicação acontece pelo workflow `pages.yml` da branch **`gh-pages`**, que é a branch permitida pela proteção do ambiente `github-pages` deste repositório. Alterações somente em `main` não publicam automaticamente: o build validado precisa ser atualizado em `gh-pages`. Não é necessário enfraquecer essa proteção. O workflow da animação de contribuições e o README do perfil são preservados.
 
 ## Demonstração e protótipo
 
