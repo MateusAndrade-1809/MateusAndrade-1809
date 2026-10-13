@@ -136,13 +136,17 @@ O workflow `.github/workflows/portifolio-pages.yml`, na branch `main`, instala a
 
 ### Sprint 1: wireframes
 
-O [arquivo editável do Figma](https://www.figma.com/design/A1ZWmBh1MmZkDaChWUurL0) contém sete telas desktop, uma mobile e navegação entre as seções. A revisão final de altura de alguns textos ficou pendente por limite do plano Starter. Não considerar o protótipo integralmente aprovado antes desse ajuste.
+O [arquivo editável do Figma](https://www.figma.com/design/A1ZWmBh1MmZkDaChWUurL0) contém sete telas desktop, uma mobile e navegação entre as seções. As oito telas foram revisadas visualmente em 13/10/2026: textos com altura automática, contêineres adaptáveis e rótulos de navegação sem palavras quebradas. O compartilhamento permite visualização por qualquer pessoa com o link.
+
+| Wireframe desktop | Wireframe mobile |
+| --- | --- |
+| ![Wireframe inicial corrigido](docs/screenshots/wireframe-world.png) | ![Wireframe móvel corrigido](docs/screenshots/wireframe-world-mobile.png) |
 
 ![Wireframe de contato](docs/screenshots/wireframe-contact.png)
 
 ### Sprints 2 e 3
 
-Interface funcional, APIs, testes, documentação, capturas e build para publicação. Consulte [REQUIREMENTS.md](docs/REQUIREMENTS.md) para o acompanhamento fiel, incluindo as pendências do formulário e do Figma.
+Interface funcional, APIs, testes, documentação, capturas e build para publicação. Consulte [REQUIREMENTS.md](docs/REQUIREMENTS.md) para o acompanhamento dos requisitos e as conferências restantes antes da entrega.
 
 ## Qualidade
 

@@ -31,6 +31,8 @@ As mensagens dos testes automatizados são interceptadas. Esses testes **não co
 
 Em 13/10/2026, o GitHub Pages foi verificado com imagens carregadas e sem erros de execução. O primeiro envio real informou ativação pendente. Após Mateus confirmar a ativação, um segundo envio pelo formulário público retornou HTTP 200, `success: "true"` e `The form was submitted successfully.`. A interface exibiu o aceite do serviço. A chegada na caixa de entrada ainda precisa ser conferida pelo destinatário.
 
-## Limite do protótipo
+## Revisão do protótipo
 
-O site foi inspecionado por capturas de tela. O Figma é um artefato separado: tem oito telas e sessenta ligações de navegação, mas o ajuste final de altura de textos foi interrompido pelo limite do plano Starter. A imagem do wireframe de contato foi revisada; não considerar todas as telas do Figma aprovadas visualmente.
+O Figma é um artefato separado, com oito telas e sessenta ligações de navegação. Em 13/10/2026, a revisão foi concluída pelo editor normal: aplicada altura automática aos 141 textos e largura automática aos rótulos que quebravam palavras. Os contêineres acompanham o conteúdo. As sete telas desktop e a tela mobile foram inspecionadas individualmente, sem sobreposição ou corte de textos nas capturas revisadas.
+
+As imagens de início desktop, início mobile e contato foram exportadas diretamente do arquivo corrigido. O compartilhamento está configurado como "Qualquer pessoa pode visualizar". Esta revisão de tipografia não altera os destinos de navegação nem o código do site.

@@ -15,13 +15,12 @@ Referência: LABORATÓRIO 01 - Portfólio Profissional, fornecido pelo aluno. A 
 | Responsividade | Desktop, tablet e celular | Sete telas verificadas em 320, 390 e 1440 pixels, sem rolagem horizontal |
 | Hospedagem gratuita | GitHub Pages no endereço já usado no perfil | Publicação por GitHub Actions |
 | README e instruções | Instalação, scripts, APIs, estrutura, demonstração, testes e créditos | Documentação na pasta `portfolio` do repositório de perfil |
-| Protótipo no Figma | Sete telas desktop e uma mobile, com navegação entre telas | Arquivo criado na equipe pessoal; revisão final de tipografia pendente por limite do plano Starter |
+| Protótipo no Figma | Sete telas desktop e uma mobile, com navegação entre telas | Oito telas revisadas; altura automática dos textos, contêineres adaptáveis e rótulos corrigidos; acesso público de visualização confirmado |
 
 ## Pendências de entrega
 
 1. Conferir a chegada da mensagem real de teste na caixa de entrada. A ativação foi confirmada pelo aluno e a API aceitou o envio, mas isso não comprova entrega na caixa de entrada.
-2. Finalizar o ajuste de altura dos textos no Figma, especialmente no perfil da tela inicial. O limite de chamadas do plano Starter interrompeu a correção. Isso não afeta o site, cujas telas foram verificadas separadamente.
-3. Confirmar, antes da apresentação, se o professor exige algum item adicional fora do PDF enviado. Não foram inventados data exata do evento, certificado ou foto da premiação.
+2. Confirmar, antes da apresentação, se o professor exige algum item adicional fora do PDF enviado. Não foram inventados data exata do evento, certificado ou foto da premiação.
 
 ## Evidências
 
@@ -31,4 +30,6 @@ Referência: LABORATÓRIO 01 - Portfólio Profissional, fornecido pelo aluno. A 
 - [Projetos](screenshots/projects-1440.png)
 - [Contato mobile](screenshots/contact-390.png)
 - [Wireframe de contato](screenshots/wireframe-contact.png)
+- [Wireframe inicial corrigido](screenshots/wireframe-world.png)
+- [Wireframe móvel corrigido](screenshots/wireframe-world-mobile.png)
 - [Relatório dos testes](TESTING.md)
