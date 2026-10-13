@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "github-pages/**"
+      - "portfolio/**"
       - ".github/workflows/portifolio-pages.yml"
   workflow_dispatch:
 
@@ -28,6 +29,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: portfolio/package-lock.json
+
+      - name: Install dependencies
+        working-directory: portfolio
+        run: npm ci
+
+      - name: Check code and test
+        working-directory: portfolio
+        run: |
+          npm run lint
+          npm test
+
+      - name: Build portfolio
+        working-directory: portfolio
+        run: npm run build
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
@@ -36,7 +58,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: github-pages
+          path: portfolio/github-pages
 
       - name: Deploy
         id: deployment
