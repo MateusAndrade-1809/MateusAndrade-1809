@@ -23,8 +23,13 @@ Verificação em Chrome/Playwright, nas larguras 320, 390 e 1440 pixels:
 - Falha da Open-Meteo não impede o uso do portfólio.
 - Formulário exige os campos e o consentimento; erro de rede mantém a mensagem.
 - Resposta simulada de sucesso limpa os campos apenas após o aceite do serviço.
+- Resposta de ativação pendente com `success: "false"` mostra o aviso correto e preserva os campos.
 
-As mensagens dos testes automatizados são interceptadas. Esses testes **não comprovam entrega real de e-mail**. A ativação e o recebimento precisam ser confirmados pelo titular da caixa de entrada.
+As mensagens dos testes automatizados são interceptadas. Esses testes **não comprovam entrega real de e-mail**.
+
+## Site publicado
+
+Em 13/10/2026, o GitHub Pages foi verificado com imagens carregadas e sem erros de execução. O primeiro envio real informou ativação pendente. Após Mateus confirmar a ativação, um segundo envio pelo formulário público retornou HTTP 200, `success: "true"` e `The form was submitted successfully.`. A interface exibiu o aceite do serviço. A chegada na caixa de entrada ainda precisa ser conferida pelo destinatário.
 
 ## Limite do protótipo
 

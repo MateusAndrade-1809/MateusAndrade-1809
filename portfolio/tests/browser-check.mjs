@@ -146,6 +146,21 @@ import fs from "node:fs/promises";
         status: 200,
         contentType: "application/json",
         body: JSON.stringify({
+          success: "false",
+          message: "This form needs Activation. We've sent you an email containing an 'Activate Form' link.",
+        }),
+      }),
+    );
+    await page.getByRole("button", { name: "Enviar mensagem" }).click();
+    await page.locator(".form-feedback.activation").waitFor();
+    assert.ok((await page.getByLabel("Sua mensagem").inputValue()).includes("interceptada"));
+    results.push("Activation response preserves fields and shows pending setup: PASS");
+    await page.unroute("https://formsubmit.co/**");
+    await page.route("https://formsubmit.co/**", (route) =>
+      route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
           success: true,
           message: "Submission successful",
         }),

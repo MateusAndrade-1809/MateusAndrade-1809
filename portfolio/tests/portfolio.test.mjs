@@ -146,6 +146,12 @@ test("envio só confirma sucesso com resposta positiva do serviço", async () =>
     global.fetch = async () =>
       Response.json({ success: "true", message: "Please activate your email" });
     assert.equal(await sendContact(valid), "activation");
+    global.fetch = async () =>
+      Response.json({
+        success: "false",
+        message: "This form needs Activation. We've sent you an email containing an 'Activate Form' link.",
+      });
+    assert.equal(await sendContact(valid), "activation");
     global.fetch = async () => Response.json({ success: false });
     await assert.rejects(sendContact(valid), /send-failed/);
     await assert.rejects(sendContact({ ...valid, website: "spam" }), /spam/);

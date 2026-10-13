@@ -11,7 +11,7 @@ Referência: LABORATÓRIO 01 - Portfólio Profissional, fornecido pelo aluno. A 
 | Projeto em funcionamento | Capturas reais, ampliáveis em galeria | Todos os arquivos locais carregam; API-Clima mostra resposta real |
 | Experiências | PUC Minas, desenvolvimento em equipe e We Make Software | Relato do aluno, sem inventar experiência profissional remunerada |
 | Contatos clicáveis | E-mail, WhatsApp, LinkedIn e GitHub | URLs e número autorizados pelo aluno |
-| Formulário que envia e-mail | Integração FormSubmit, nome/e-mail/mensagem, consentimento, erros e confirmação | Validação e respostas simuladas testadas; recebimento real depende da ativação do destinatário |
+| Formulário que envia e-mail | Integração FormSubmit, nome/e-mail/mensagem, consentimento, erros e confirmação | Ativação confirmada pelo aluno; envio real pelo site público aceito pela API em 13/10/2026 |
 | Responsividade | Desktop, tablet e celular | Sete telas verificadas em 320, 390 e 1440 pixels, sem rolagem horizontal |
 | Hospedagem gratuita | GitHub Pages no endereço já usado no perfil | Publicação por GitHub Actions |
 | README e instruções | Instalação, scripts, APIs, estrutura, demonstração, testes e créditos | Documentação na pasta `portfolio` do repositório de perfil |
@@ -19,7 +19,7 @@ Referência: LABORATÓRIO 01 - Portfólio Profissional, fornecido pelo aluno. A 
 
 ## Pendências de entrega
 
-1. Confirmar o e-mail de ativação do FormSubmit e verificar a chegada de uma mensagem real. O aceite da API não comprova recebimento na caixa de entrada.
+1. Conferir a chegada da mensagem real de teste na caixa de entrada. A ativação foi confirmada pelo aluno e a API aceitou o envio, mas isso não comprova entrega na caixa de entrada.
 2. Finalizar o ajuste de altura dos textos no Figma, especialmente no perfil da tela inicial. O limite de chamadas do plano Starter interrompeu a correção. Isso não afeta o site, cujas telas foram verificadas separadamente.
 3. Confirmar, antes da apresentação, se o professor exige algum item adicional fora do PDF enviado. Não foram inventados data exata do evento, certificado ou foto da premiação.
 

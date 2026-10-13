@@ -48,7 +48,7 @@ O navegador carrega a aplicação estática, apresenta os dados curados e consul
 
 As consultas de leitura expiram após 12 segundos, o envio após 20 segundos. Trocar o idioma não repete as consultas do GitHub. Apenas dados públicos são buscados; não são incluídos repositórios privados.
 
-**Importante sobre o formulário:** o FormSubmit exige confirmação do destinatário no primeiro uso. A integração e seus estados foram testados, mas o recebimento real só pode ser confirmado após Mateus ativar o endereço no e-mail recebido. O sistema informa o aceite pelo serviço, sem afirmar que houve entrega na caixa de entrada.
+**Formulário:** Mateus confirmou a ativação do FormSubmit em 13/10/2026. Uma mensagem real enviada pelo site público retornou HTTP 200 e `success: "true"`. Os estados de erro, ativação pendente e sucesso também têm testes automatizados. O sistema informa o aceite pelo serviço; a entrega na caixa de entrada precisa ser conferida pelo destinatário.
 
 O clima utiliza uma localização fixa, Belo Horizonte; não solicita a localização do visitante. `localStorage` armazena idioma, salas visitadas, preferência de movimento e cache público do GitHub. Os campos do formulário não são gravados em armazenamento local.
 

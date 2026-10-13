@@ -208,9 +208,9 @@ export async function sendContact(data: {
   });
   if (!response.ok) throw new Error("send-failed");
   const result = await response.json();
+  if (/activat|confirm.*email/i.test(String(result.message ?? "")))
+    return "activation";
   if (result.success !== true && result.success !== "true")
     throw new Error("send-failed");
-  return /activat|confirm.*email/i.test(String(result.message ?? ""))
-    ? "activation"
-    : "accepted";
+  return "accepted";
 }
